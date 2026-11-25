@@ -1,0 +1,42 @@
+# This repository holds source code only.
+# Dataset files, participant data, weights and generated outputs must never be committed.
+
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data, features, weights and results
+data/
+sample/
+features/
+weights/
+cache/
+results/
+results_*/
+figures/
+reports/
+presentation/
+
+# Data and model file types, wherever they are
+*.csv
+*.npz
+*.npy
+*.pt
+*.pth
+*.pkl
+*.tar
+*.onnx
+*.safetensors
+*.avi
+*.mp4
+*.PW
+*.log
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
